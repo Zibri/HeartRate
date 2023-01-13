@@ -49,6 +49,7 @@ navigator.mediaDevices.enumerateDevices().then(function(devices) {
     // The target canvas.
     var canvas = document.getElementById("c");
     context = canvas.getContext("2d");
+    context.scale(8,8);
 
     // The canvas for the graph
     graphCanvas = document.getElementById("g");
